@@ -32,3 +32,11 @@ By Levels of Measurement:
 | Qualitative Ordinal | Groups that follows a strict order | Classification of women in Ugly, OK, HOT|
 | Quantitative Interval | Numbers, that doesn't have a true 0 | Temperature (Celsius, Fahrenheit). |
 | Quantitative Ratio | Numbers, that have a true 0 (most common) | Number of objects, distance, time, Temperature (Kelvin)  |
+
+## Data Visualization
+
+Representation of Categorical Variables:
+* Frequency Distribution Tables
+* Bar Charts
+* Pie Charts
+* Pareto Diagrams
