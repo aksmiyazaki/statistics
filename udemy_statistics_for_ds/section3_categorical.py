@@ -2,6 +2,7 @@ import pandas as pd
 import plotly.plotly as py
 import plotly.graph_objs as go
 import seaborn as sns
+import matplotlib.pyplot as plt
 sns.set(style="whitegrid")
 %matplotlib inline
 
@@ -74,3 +75,13 @@ layout = go.Layout(
 )
 
 py.iplot(go.Figure(data=data, layout=layout))
+
+# Creation of pareto diagram with seaborn
+sns.set_style("white")
+fig, ax = plt.subplots()
+ax = sns.barplot(x=df.index, y=df['Sold'])
+ax2 = ax.twinx()
+ax2 = sns.pointplot(x=df.index, y=df['cumulative_perc'], order=["San Francisco", "LA", "New York"], color="Y")
+sns.despine(ax=ax, right=True, left=True)
+sns.despine(ax=ax2, left=True, right=False)
+ax2.spines['right'].set_color('white')

@@ -1,3 +1,24 @@
+# Anaconda Stuff
+
+* Creating environment
+    * conda create -n yourenvname python=x.x anaconda
+
+* Activating/Deactivating specific environment
+    * conda activate yourenvname
+    * conda deactivate
+
+* Installing packages into environment
+    * conda install -n yourenvname [package]
+
+* Delete a no longer needed env.
+    * conda remove -n yourenvname -all
+
+* List Packages
+    * conda list
+
+* List environments
+    * conda info --envs
+
 # Statistics
 Repo containing statistics stuff (improving knowledge from basics).
 
@@ -33,10 +54,19 @@ By Levels of Measurement:
 | Quantitative Interval | Numbers, that doesn't have a true 0 | Temperature (Celsius, Fahrenheit). |
 | Quantitative Ratio | Numbers, that have a true 0 (most common) | Number of objects, distance, time, Temperature (Kelvin)  |
 
-## Data Visualization
+## Data Visualization - Categorical Variables
 
 Representation of Categorical Variables:
 * Frequency Distribution Tables
 * Bar Charts
 * Pie Charts
 * Pareto Diagrams
+
+## Data Visualization - Numerical Variables
+
+Representation of Numerical Variables:
+
+* Frequency Distribution Tables
+    * Divide range in intervals and then count the frequency.
+* Histograms
+    * Possibility to create unequal intervals
