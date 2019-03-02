@@ -28,7 +28,7 @@ Repo containing statistics stuff (improving knowledge from basics).
 | :------------- |:-------------:| :-----:|:-------:|
 | Population     | N | Called parameters | Hard to observe and contact |
 | Sample    | n      |   Called statistics | Subset of the Population (easier to observe and contact) |
- 
+
 Almost always we will be working with samples.  
 Samples have 2 defining features:
 
@@ -39,14 +39,14 @@ Samples have 2 defining features:
 
 Data Classification in two ways: **Types of Data** and **Measurement Levels**
 
-By Type:
+By Type:  
 | Type        | Description           |  Examples  |
 | :------------- |:-------------:| :-----:|
 | Categorical     | Categories or groups | Car brands (Mercedes, VW, Renault), Answers to Yes/No questions  |
 | Numerical Discrete    | Represents numbers (usually integers, entire range can be imagined) | Number of children, Exam Score, Grades, Number of objects |
 | Numerical Continuous    | Represents numbers (infinite, impossible to count and imagine) | Weight, Height, Area, Time, Distance |
 
-By Levels of Measurement:
+By Levels of Measurement:  
 | Type        | Description           |  Examples  |
 | :------------- |:-------------:| :-----:|
 | Qualitative Nominal | Aren't numbers and cannot be ordered | Car brands, Seasons |
