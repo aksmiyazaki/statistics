@@ -40,6 +40,8 @@ Samples have 2 defining features:
 Data Classification in two ways: **Types of Data** and **Measurement Levels**
 
 By Type:  
+
+
 | Type        | Description           |  Examples  |
 | :------------- |:-------------:| :-----:|
 | Categorical     | Categories or groups | Car brands (Mercedes, VW, Renault), Answers to Yes/No questions  |
@@ -47,6 +49,8 @@ By Type:
 | Numerical Continuous    | Represents numbers (infinite, impossible to count and imagine) | Weight, Height, Area, Time, Distance |
 
 By Levels of Measurement:  
+
+
 | Type        | Description           |  Examples  |
 | :------------- |:-------------:| :-----:|
 | Qualitative Nominal | Aren't numbers and cannot be ordered | Car brands, Seasons |
