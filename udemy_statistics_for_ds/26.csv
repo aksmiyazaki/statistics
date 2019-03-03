@@ -1,0 +1,13 @@
+Range;Situation;Percent
+18-25;Employed;60
+18-25;Unemployed;40
+25-35;Employed;85
+25-35;Unemployed;15
+35-45;Employed;95
+35-45;Unemployed;5
+45-55;Employed;97
+45-55;Unemployed;3
+55-65;Employed;97
+55-65;Unemployed;3
+65+;Employed;100
+65+;Unemployed;0

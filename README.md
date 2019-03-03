@@ -70,3 +70,12 @@ Representation of Numerical Variables:
     * Divide range in intervals and then count the frequency.
 * Histograms
     * Possibility to create unequal intervals
+
+## Relationship between Variables
+
+### Categorical
+  * Cross-Tables
+
+### Numerical
+  * Scatter plots
+  
