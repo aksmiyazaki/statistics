@@ -103,3 +103,37 @@ Representation of Numerical Variables:
   * Value that occurs more often
 
 * There's no *best* central tendency measure. But using only one of them is definitely the worst (they should be used together).
+
+## Measures of asymmetry
+
+* Skewness
+    * Indicates wether the data is concentrated on one side
+    * Mean > Median -> Positive or right Skew
+        * Bigger in lower X, smaller in high X
+        * Outliers to the right
+        * ![](/udemy_statistics_for_ds/img/PositiveSkew.png?raw=true "Positive Skew")
+        * ![](/udemy_statistics_for_ds/img/PositiveSkew-Measures.png?raw=true "Measures of Central Tendency on Positive Skew")
+    * Mean = Median = Mode -> Zero Skew
+        * Simmetrical Distribution
+    * Mean < Median -> Negative or left skew
+        * Outliers to the left
+        * ![](/udemy_statistics_for_ds/img/NegativeSkew.png?raw=true "Negative Skew")
+
+## Measures of variability
+
+* Sample Statistic is an approximation of the population parameter.
+* There's different formulas for calculate population and sample statistics.
+
+* Variance
+    * Dispersion of a set of data points around their mean.
+    * Large and hard to compare
+
+* Standard Deviation
+    * Square root of the variance
+    * Most common measure of variability
+
+* Coefficient of variation
+    * Relative standard deviation
+    * Standard deviation divided by mean
+    * Comparing two datasets
+    * Universal across datasets.
