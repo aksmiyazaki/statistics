@@ -15,5 +15,7 @@ df['Annual income USA'].std()
 df['Annual income Denmark'].std()
 
 # Calculate coefficient of variation
-df['Annual income USA'].std()
-df['Annual income Denmark'].std()
+df['Annual income USA'].std()/df['Annual income USA'].mean()
+df['Annual income Denmark'].std()/df['Annual income Denmark'].mean()
+
+# This means that annual income in USA has a huge variability compared with annual incomes in denmark.

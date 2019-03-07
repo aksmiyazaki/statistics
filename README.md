@@ -137,3 +137,25 @@ Representation of Numerical Variables:
     * Standard deviation divided by mean
     * Comparing two datasets
     * Universal across datasets.
+
+## Univariate Measures
+    * Central tendency
+    * Asymmetry
+    * variability
+
+## Measures of Relationship between Variables
+* Covariance
+    * '>' 0, the two variables move together
+    * '<' 0, the two variables move in opposite directions
+    * = 0, the two variables are independent
+    * Problem with the scale -> Can be 0.0001234 or 330000000
+* Correlation
+    * Adjusts covariance so that the relationship between the two variables becomes easy and intuitive to interpret.
+    * -1 <= correlation coefficient <= 1
+    * Correlation = 1 -> The entire variability of one variable is explained by the other.
+    * Correlation = 0 -> Absolutely independent variables.
+    * Correlation = -1 -> Same as 1, but inverted.
+    * Correlation (Y,X) == Correlation (X,Y)
+    * Correlation does not imply causation.
+* Causality
+    * Important to understand the direction of causal relationships -> In house pricing, size causes the price.
