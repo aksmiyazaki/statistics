@@ -19,7 +19,8 @@
 * List environments
     * conda info --envs
 
-# Statistics
+-----
+# Descriptive Statistics
 Repo containing statistics stuff (improving knowledge from basics).
 
 # Section 2 - Sample of Population Data?
@@ -157,5 +158,39 @@ Representation of Numerical Variables:
     * Correlation = -1 -> Same as 1, but inverted.
     * Correlation (Y,X) == Correlation (X,Y)
     * Correlation does not imply causation.
+    * Correlation less than 0.2 is negligible
 * Causality
     * Important to understand the direction of causal relationships -> In house pricing, size causes the price.
+
+## Data Analysis example with the content so far
+    * Identify Types (Categorical, numerical, etc.)
+    * ID
+        - Type is Categorical
+        - Level of measurement is Qualitative, nominal
+    * Age
+        - Numerical Discrete
+        - Level of measurement is Quantitative Ratio
+    * Age Interval
+        - Numerical Discrete
+        - Level of measurement is Qualitative Ordinal
+    * Price
+        - Numerical Continuous or Discrete (like age)
+        - Level of measurement is Quantitative Ratio
+    * Gender
+        - Categorical Type
+        - Level of measurement is Qualitative Nominal
+    * State
+        - Categorical type
+        - Qualitative Nominal
+    * Gender
+        - Categorical
+        - Qualitative Nominal
+
+# Inferential Statistics
+
+## Distribution
+    * Normal, Binomial, Uniform
+    * Function that shows the possible values for a variable and how often they occur (probability)
+    * Rolling a die = Discrete uniform Distribution
+    * Graph is just a representation, not the distribution itself.
+    * Rolling two dices - Normal
