@@ -194,3 +194,59 @@ Representation of Numerical Variables:
     * Rolling a die = Discrete uniform Distribution
     * Graph is just a representation, not the distribution itself.
     * Rolling two dices - Normal
+
+## Normal and Student distributions
+    * They approximate a wide variety of random Variables
+    * Distributions of sample means with large enough sample sizes could be approximated to normal
+    * All computable statistics are elegant [?]
+    * Decisions based on normal distribution insights have a good track record
+    * Normal
+        * Gaussian distribution or Bell Curve
+        * Mean = Median = Mode
+        * No skew
+        * N ~ (&mu;, &sigma;)
+        * Bigger Mean move graph to the right, lower mean move the graph to the left (keeping the same std).
+        * Bigger std, more dispersion (fatter tails), lower std, lower dispersion (more data in the middle, thinner tails)
+
+## Standardization
+    * Every distribution can be standardized.
+    * Standard normal deviation Z ~ N(0,1)
+    * Adding or subtracting values from all data points does not change the std.
+    * To standardize a normal:
+        * Subtract mean from all data points.
+        * Divide all data points by std.
+        * Useful to make predictions and inferences easier.
+
+## Central Limit Theorem
+    * No matter the underlying distribution, the sampling distribution approximates a Normal.
+    * Variance - Population Variance / by the sample size
+    * Sample size > 30
+    * Allow us to performs tests, solve problems and make inferences using the normal distribution, even when the population is not normally distributed.
+
+## Standard Error
+    * The Standard deviation of the distribution formed by the sample means.
+    * Used in most statistical tests because it shows how well you approximated the true mean.
+
+## Estimators and Estimates
+    * Estimate - Approximation Depending solely on sample information.
+    * Point Estimate -> Single values
+    * Confidence interval estimates -> Interval
+    * Estimator properties
+        - Efficiency
+            - Least Variability of outcomes
+            - The most efficient estimator is the unbiased estimator with smallest variance
+        - Bias
+            - Unbiased estimator -> Expected Value = Population Parameter
+    * Statistics vs Estimators
+        * Statistics
+            Broader Term
+        * Estimators
+            A Type of Statistic
+
+## Confidence intervals
+    * Much more accurate representation of reality
+    * 95% CI means there is only 5% chance that the population parameter is outside the range.
+    * Confidence Level -> &alpha;
+    * 0 < &alpha; < 1
+    * CI 95% -> &alpha; = 5%
+    * CI 99% -> &alpha; = 1%
