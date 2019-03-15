@@ -250,3 +250,15 @@ Representation of Numerical Variables:
     * 0 < &alpha; < 1
     * CI 95% -> &alpha; = 5%
     * CI 99% -> &alpha; = 1%
+    * Confidence intervals can be calculated when the population is known or unknown
+        * The calculation method differs from one another.
+    * Confidence intervals for a population mean with a known variance.
+    * For confidence levels of 90%, 95% and 99%, the common &alpha; is 10%, 5% and 1% or 0.1, 0.05 and 0.01
+    * Using the Z-table for CI = 95%
+        - &alpha; is 0.05
+        - Z&alpha;/2 = 0.025
+        - In the table, the value is 1-0.025 -> 0.975
+        - The corresponding Z comes from the sum of the row and column that has this value
+        - ![](/udemy_statistics_for_ds/img/z_of_normal.png?raw=true "Table showing how to get Z")
+        - In this case -> 1.9 + 0.06 = 1,96
+        - When the value of 1 - (&alpha;/2) isn't found in the table, round to neares number.
