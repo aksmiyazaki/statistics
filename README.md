@@ -262,3 +262,45 @@ Representation of Numerical Variables:
         - ![](/udemy_statistics_for_ds/img/z_of_normal.png?raw=true "Table showing how to get Z")
         - In this case -> 1.9 + 0.06 = 1,96
         - When the value of 1 - (&alpha;/2) isn't found in the table, round to neares number.
+    * Lower the confidence -> Smaller CI, Higher confidence -> Bigger CI
+    * CI for normally distributed data have the need of the population variance.
+
+## Students - t
+    * Inferences through small Samples with Unknown population Variance
+    * Approximates Normal, but with fatter tails
+    * CI based on small samples from normally distributed populations are calculated with t-statistic
+    * Using T-Table
+        - Find the degrees of freedom (n-1) -> that gives us the row.
+        - Find &alpha; (1 - CI) -> 95% CI, &alpha; = 0.05
+        - Divide &alpha; by 2 and find the column in the t-table.
+
+## Margin or Error
+    * Bigger margin of error => Wider confidence interval
+    * Smaller margin or error -> Narrower confidence interval
+    * Smaller Statistic (Z or T) and Smaller STD will reduce the margin of error.
+    * Higher sample sizes decrease the margin of error
+
+## CI with 2 Populations
+    * Samples of 2 populations
+        - Dependent
+            - Same subject over time (ex Weight loss, blood samples)
+            - Another example is when researching families
+            - Before and after situation
+            - Cause and effect
+        - Independent
+            - 3 Cases
+                - Population variance is known
+                - Population variance unknown but assumed to be equal
+                - Population variance unknown but assumed to be different
+
+## CI 2 Populations with independent samples - Case 1 Known population variances
+    * Population are normally distributed
+    * Population variances are Known
+    * Samples different sizes
+    * Choosing statistic
+        - Samples are big
+        - Population variances are known
+        - Populations are assumed to follow Normal distribution
+        - Thus, we use the Z statistic.
+    * Variance of the difference
+        - ![](/udemy_statistics_for_ds/img/var_diff.png?raw=true "Formula of Variance of the difference")
