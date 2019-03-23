@@ -65,3 +65,24 @@ ci
 
 ## The interval is bigger because our confidence is higher
 ## To give a better confidence we enlarge the interval because there's more chance that our value falls into a bigger interval.
+
+
+## 2 Populations, variance unknown but assumed to be equal.
+df = pd.read_csv('/home/aksmiyazaki/git/statistics/udemy_statistics_for_ds/315.csv', sep=';')
+ny_mean = df['NYapples'].mean()
+la_mean = df['LAapples'].mean()
+ny_std = df['NYapples'].std()
+la_std = df['LAapples'].std()
+
+pool_var = (((df['NYapples'].count() - 1) * (ny_std ** 2))+ ((df['LAapples'].count() - 1) * (la_std ** 2))) / (df['LAapples'].count() + df['NYapples'].count() - 2)
+pool_std = math.sqrt(pool_var)
+
+# Unkown variance and only a few observations -> T-statistic.
+tstat = stats.t.ppf((1-(0.1/2)), (df['NYapples'].count() + df['LAapples'].count() - 2))
+tstat
+
+ci = [(ny_mean - la_mean) - tstat * math.sqrt(pool_var/df['NYapples'].count() + pool_var/df['LAapples'].count()),
+        (ny_mean - la_mean) + tstat * math.sqrt(pool_var/df['NYapples'].count() + pool_var/df['LAapples'].count())]
+ci
+
+## Confidence intervals for two means with independent variance -> Verify later.
